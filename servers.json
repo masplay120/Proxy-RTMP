@@ -1,0 +1,14 @@
+[
+  {
+    "id": "servidor1",
+    "clave": "claveServidor1",
+    "origen": "rtmp://user:pass@36bay2.tulix.tv/giatv-estacionmixtv/estacionmixtv",
+    "activo": true
+  },
+  {
+    "id": "servidor2",
+    "clave": "claveServidor2",
+    "origen": "rtmp://tv:11122334455@36bay2.tulix.tv/giatv-tv/tv",
+    "activo": true
+  }
+]
