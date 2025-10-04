@@ -10,7 +10,7 @@ function require_auth() {
     if (!is_logged_in()) {
         // guarda la url para volver después (opcional)
         $_SESSION['return_to'] = $_SERVER['REQUEST_URI'];
-        header('Location: /panel/login.php');
+        header('Location: /login.php');
         exit;
     }
 }
