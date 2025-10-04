@@ -1,4 +1,4 @@
-app = "Proxy-RTMP"  # cámbialo por el nombre de tu app en fly.io
+app = "proxy rtmp"  # cámbialo por el nombre de tu app en fly.io
 
 [[services]]
   internal_port = 1935
