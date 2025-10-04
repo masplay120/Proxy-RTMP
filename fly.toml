@@ -1,11 +1,6 @@
-app = "miapp"
+app = "Proxy-RTMP"  # cámbialo por el nombre de tu app en fly.io
 
 [[services]]
   internal_port = 1935
   protocol = "tcp"
   ports = [{ port = 1935 }]
-
-[[services]]
-  internal_port = 8080
-  protocol = "tcp"
-  ports = [{ port = 80 }]
