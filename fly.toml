@@ -1,0 +1,11 @@
+app = "miapp"
+
+[[services]]
+  internal_port = 1935
+  protocol = "tcp"
+  ports = [{ port = 1935 }]
+
+[[services]]
+  internal_port = 8080
+  protocol = "tcp"
+  ports = [{ port = 80 }]
